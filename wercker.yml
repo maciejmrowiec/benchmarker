@@ -1,1 +1,2 @@
-box: wercker/default
+box: wercker/golang@1.2.0
+
