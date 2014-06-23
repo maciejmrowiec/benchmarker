@@ -4,8 +4,11 @@ benchmarker [![Build Status](https://drone.io/github.com/maciejmrowiec/benchmark
 Tool for tracking performance improvements in golang applications.
 
 Assumptions:
-- Execute benchmarker instead of go test -bench=.
-- Results of each benchmark execution will be logged
-- At each execution application will display performance progress between tests.
-- CSV / JSON output support for integration with external tools.
+- Work in testing sessions initialized by user
+- Named steps
+- Comparing steps in sessions
+- Selecting best performance in session 
+- Session summary
+- Graphing (possibly)
+- Export session data in json/csv
 
