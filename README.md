@@ -1,4 +1,4 @@
-benchmarker
+benchmarker [![Build Status](https://drone.io/github.com/maciejmrowiec/benchmarker/status.png)](https://drone.io/github.com/maciejmrowiec/benchmarker/latest)
 ===========
 
 Tool for tracking performance improvements in golang applications.
@@ -9,3 +9,4 @@ Assumptions:
 - At each execution application will display performance progress between tests.
 - VCS integration (GIT initially) for results / code changes tracking.
 - CSV / JSON output support for integration with external tools.
+
