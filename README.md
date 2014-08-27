@@ -2,6 +2,7 @@ benchmarker [![Build Status](https://drone.io/github.com/maciejmrowiec/benchmark
 ===========
 
 Benchmarker is a simple utility to quicky compare results from golang benchmark suite between executions.
+The goal of benchmarker is to help tracking performance improvements while developing golang code.
 
 Usage:
 
