@@ -109,9 +109,9 @@ func (c *Comparison) AddResult(name string, result float32) {
 func (c *Comparison) String() string {
 
 	buffer := new(bytes.Buffer)
-	w := tabwriter.NewWriter(buffer, 0, 8, 0, '\t', tabwriter.AlignRight)
+	w := tabwriter.NewWriter(buffer, 0, 8, 0, '\t', 0)
 
-	fmt.Fprintln(w, "Improvment\tBenchmark")
+	fmt.Fprintln(w, "Improvement\tBenchmark")
 
 	sum := float32(0)
 	count := len(c.result)
