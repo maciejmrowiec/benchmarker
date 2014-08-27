@@ -132,6 +132,18 @@ func (c *Comparison) String() string {
 	return buffer.String()
 }
 
+func (c *Comparison) Len() int {
+	return len(c.result)
+}
+
+func (c *Comparison) Swap(i, j int) {
+	c.result[i], c.result[j] = c.result[j], c.result[i]
+}
+
+func (c *Comparison) Less(i, j int) bool {
+	return c.result[i].name < c.result[j].name
+}
+
 func CompareBenchmarks(old *Benchmark, current *Benchmark) *Comparison {
 	if old == nil || current == nil {
 		return nil

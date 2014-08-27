@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 )
 
 func usage() {
@@ -35,5 +36,6 @@ func main() {
 
 	results := CompareBenchmarks(prev_bench, new_bench)
 
+	sort.Sort(results)
 	fmt.Println(results)
 }
