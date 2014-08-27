@@ -28,9 +28,11 @@ benchmarker old_results.log new_results.log
 Improvement	Benchmark
 6822.67 %	benchmark_firstpage_largeresult
 679.99 %	benchmark_firstpage_smallresult
-428.29 %	benchmark_secondpage_smallresult
 413.90 %	benchmark_firstpage_smallresult_sorted
+428.29 %	benchmark_secondpage_smallresult
 420.50 %	benchmark_secondpage_smallresult_sorted
 		
 1753.07 %	Total improvement
 ```
+
+Note: Results are sorted by benchmark name.
